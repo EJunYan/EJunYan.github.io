@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<key>items</key>
+<dict>
+    <key>items</key>
     <array>
         <dict>
             <key>assets</key>
@@ -16,9 +16,9 @@
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.rszh.travel</string><!--修改这里-->
-                <key>bundle-version</key>
-                <string>0.1</string><!--修改这里-->
+                 <string>com.rszh.travel</string><!--修改这里-->
+                 <key>bundle-version</key>
+                <string>1.31.1287</string><!--修改这里-->
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
@@ -26,4 +26,5 @@
             </dict>
         </dict>
     </array>
+</dict>
 </plist>
