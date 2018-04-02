@@ -1,0 +1,51 @@
+
+/*id 表示唯一 class 表示可以重复使用*/
+
+/*元素class选择其*/
+h1.title {
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+}
+
+/*id 选择器*/
+#head_title
+{
+    text-align: center;
+}
+
+#input_uuid
+{
+    width: 50%;
+    border-color: rgba(0, 0, 0, 0.19);
+    /*height: 50px;*/
+}
+
+#submit_uuid
+{
+    width: 80px;
+    height: 37px;
+    text-align: center;
+    font-size: 16px;
+    border-color: aqua;
+    background-color: rgba(0,0,0,0.28);
+}
+
+/*class 选择器*/
+.rtitle
+{
+    font-size: 26px;
+}
+
+/*元素选择器*/
+button
+{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+    border-color: aqua;
+
+}
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<!--TODO: 上传IPA 需要指定版本 已经版本说明-->
+<!--TODO: 手机界面是一个布局-->
+<!--TODO: 电脑界面是一个布局-->
+<!--TODO: 动态配置下载地址-->
+<!--TODO: 二维码生成器-->
+<!--TODO: 需要进行测试账号提交 才能打开次APP-->
+<head>
+    <meta charset="UTF-8">
+    <!--链接外部样式-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">-->
+    <!--链接外部JS-->
+    <script type="text/javascript" src="index.js"></script>
+    <title>嘟嘟旅游测试版本</title>
+</head>
+
+<body>
+
+<div id="head_title">
+    <h1 class="title">嘟嘟旅游测试版本下载</h1>
+</div>
+
+<div id="f">
+    <!--把数据发送到服务器 手动合并到开发账号里-->
+    <!--这里进行测试账号提交-->
+    <!--TODO: 需要判断UUID格式-->
+    <p>请输入您的手机UUID以便让您的设备运行嘟嘟旅游APP。如果已经提交过的用户请直接下载。</p>
+    <form method="post" action="uuid.php">
+        UUID:<input id="input_uuid" type="text" name="uuid"></br>
+        <input id="submit_uuid"  type="submit" value="提交">
+    </form>
+</div>
+
+<!--需要进行浏览器判断 如果是电脑打开显示下载二维码 在页面提示扫面下载-->
+<!--TODO: 下面部分是重复的 且需要上下滑动-->
+<div class="instructions">
+    <p class="rtitle"> 0.0.1版本 </p>
+    <button value="itms-services://?action=download-manifest&url=https://ejunyan.github.io/ipa.plist" type="button" onclick=buttonAction(this)> 下载并安装 </button>
+    <button value="0.0.1/DuDuLuYou.ipa" type="button" onclick=buttonAction(this)> 下载安装包 </button>
+    <p class="instructions_title">版本说明: <span> 初始版本只完成基本功能, 大部分需要详细调试。</span></p>
+</div>
+
+</body>
+<footer style="text-align: center">
+    ©2018 JunYan 本网站纯属个人搭建, 如有损害公司利益, 请<a href="mailto:erwingnian@gmail.com">联系</a>我进行删除
+</footer>
+</html>
