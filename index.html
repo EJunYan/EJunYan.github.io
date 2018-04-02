@@ -24,22 +24,22 @@
     <h1 class="title">嘟嘟旅游测试版本下载</h1>
 </div>
 
-<div id="f">
-    <!--把数据发送到服务器 手动合并到开发账号里-->
-    <!--这里进行测试账号提交-->
-    <!--TODO: 需要判断UUID格式-->
-    <p>请输入您的手机UUID以便让您的设备运行嘟嘟旅游APP。如果已经提交过的用户请直接下载。</p>
-    <form method="post" action="uuid.php">
-        UUID:<input id="input_uuid" type="text" name="uuid"></br>
-        <input id="submit_uuid"  type="submit" value="提交">
-    </form>
-</div>
+<!--<div id="f">-->
+    <!--&lt;!&ndash;把数据发送到服务器 手动合并到开发账号里&ndash;&gt;-->
+    <!--&lt;!&ndash;这里进行测试账号提交&ndash;&gt;-->
+    <!--&lt;!&ndash;TODO: 需要判断UUID格式&ndash;&gt;-->
+    <!--<p>请输入您的手机UUID以便让您的设备运行嘟嘟旅游APP。如果已经提交过的用户请直接下载。</p>-->
+    <!--<form method="post" action="uuid.php">-->
+        <!--UUID:<input id="input_uuid" type="text" name="uuid"></br>-->
+        <!--<input id="submit_uuid"  type="submit" value="提交">-->
+    <!--</form>-->
+<!--</div>-->
 
 <!--需要进行浏览器判断 如果是电脑打开显示下载二维码 在页面提示扫面下载-->
 <!--TODO: 下面部分是重复的 且需要上下滑动-->
 <div class="instructions">
     <p class="rtitle"> 0.0.1版本 </p>
-    <button value="itms-services://?action=download-manifest&url=https://ejunyan.github.io/ipa.plist" type="button" onclick=buttonAction(this)> 下载并安装 </button>
+    <button value="itms-services://?action=download-manifest&url=https://ejunyan.github.io/0.0.1/ipa.plist" type="button" onclick=buttonAction(this)> 下载并安装 </button>
     <button value="0.0.1/DuDuLuYou.ipa" type="button" onclick=buttonAction(this)> 下载安装包 </button>
     <p class="instructions_title">版本说明: <span> 初始版本只完成基本功能, 大部分需要详细调试。</span></p>
 </div>
