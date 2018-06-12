@@ -37,12 +37,28 @@
 
 <!--需要进行浏览器判断 如果是电脑打开显示下载二维码 在页面提示扫面下载-->
 <!--TODO: 下面部分是重复的 且需要上下滑动-->
-<div class="instructions">
-    <p class="rtitle"> 0.0.1版本 </p>
-    <button value="itms-services://?action=download-manifest&url=https://ejunyan.github.io/0.0.1/ipa.plist" type="button" onclick=buttonAction(this)> 下载并安装(11) </button>
-    <button value="0.0.1/DuDuLuYou.ipa" type="button" onclick=buttonAction(this)> 下载安装包(11) </button>
-    <p class="instructions_title">版本说明: <span> 初始版本只完成基本功能, 大部分UI需要详细调试。</span></p>
-</div>
+
+<table id = "table_body">
+    <tr class = "table_nomal">
+        <div class="instructions">
+            <p class="rtitle"> 0.0.1版本 </p>
+            <button value="itms-services://?action=download-manifest&url=https://ejunyan.github.io/0.0.1/ipa.plist" type="button" onclick=buttonAction(this)> 下载并安装(11) </button>
+            <button value="0.0.1/DuDuLuYou.ipa" type="button" onclick=buttonAction(this)> 下载安装包(11) </button>
+            <p class="instructions_title">版本说明: <span> 初始版本只完成基本功能, 大部分UI需要详细调试。</span></p>
+        </div>
+    </tr>
+    <tr>
+        <div class="instructions">
+            <p class="rtitle"> 0.1.1版本 </p>
+            <button value="itms-services://?action=download-manifest&url=https://ejunyan.github.io/0.1.1/ipa.plist" type="button" onclick=buttonAction(this)> 下载并安装(12) </button>
+            <button value="0.1.1/DuDuLuYou.ipa" type="button" onclick=buttonAction(this)> 下载安装包(12) </button>
+            <p class="instructions_title">版本说明: <span> 第一个上线版本前的功能性测试，以及UI检查测试 </span></p>
+        </div>
+    </tr>
+</table>
+
+
+
 
 </body>
 <footer style="text-align: center">

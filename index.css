@@ -1,5 +1,6 @@
 
-/*id 表示唯一 class 表示可以重复使用*/
+/*id 表示唯一
+class 表示可以重复使用*/
 
 /*元素class选择其*/
 h1.title {
@@ -45,7 +46,6 @@ button
     font-size: 16px;
     text-align: center;
     border-color: aqua;
-
 }
 
 
